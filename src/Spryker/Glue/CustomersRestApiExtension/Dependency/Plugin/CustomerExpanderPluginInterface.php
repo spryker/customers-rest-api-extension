@@ -10,11 +10,11 @@ namespace Spryker\Glue\CustomersRestApiExtension\Dependency\Plugin;
 use Generated\Shared\Transfer\CustomerTransfer;
 use Spryker\Glue\GlueApplication\Rest\Request\Data\RestRequestInterface;
 
-interface CustomerSessionExpanderPluginInterface
+interface CustomerExpanderPluginInterface
 {
     /**
      * Specification:
-     * - Expands customer transfer for session with additional data.
+     * - Expands customer transfer with additional data.
      *
      * @api
      *
